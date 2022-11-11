@@ -1,4 +1,4 @@
-# E-Voting-system<br>
+# Electronic-Voting-system<br>
 muhammad bilal        FA20-BSE-071<br>
 abid                  SP21-BSE-085  (**Leader**)<br>
 Ashiqullah            (sp21-bse-084)<br>
