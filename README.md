@@ -1,6 +1,6 @@
 # Electronic-Voting-system<br>
-Muhammad Bilal        FA20-BSE-071<br>
-Abid                  SP21-BSE-085  (**Leader**)<br>
+Muhammad Bilal       (FA20-BSE-071)<br>
+Abid                  (SP21-BSE-085)  (**Leader**)<br>
 Ashiqullah            (sp21-bse-084)<br>
 Ahmad Ikhlas safi     (SP21-BSE-088)<br>
 Abdul basit Yousafzai (SP21-BSE-092)<br>
