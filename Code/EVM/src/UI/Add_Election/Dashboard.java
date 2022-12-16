@@ -5,9 +5,7 @@
  */
 package UI.Add_Election;
 
-import view.IECPanel;
-import view.ViewCandidate;
-import view.ViewElection;
+
 
 /**
  *

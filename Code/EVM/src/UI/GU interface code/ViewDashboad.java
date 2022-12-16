@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package UI.Add_Election;
 
-import viewdashboard.VoterPanel;
 
 /**
  *
@@ -121,7 +119,6 @@ public class ViewDashboad extends javax.swing.JFrame {
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("1432000000000");
 
-        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton1.setText("View Dashboard");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
