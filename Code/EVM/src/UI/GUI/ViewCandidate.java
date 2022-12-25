@@ -4,10 +4,7 @@
  * and open the template in the editor.
  */
 
-package UI.Add_Election;
-
-import view.RemoveCandidate;
-
+package UI.GUI;
 /**
  *
  * @author ikhla

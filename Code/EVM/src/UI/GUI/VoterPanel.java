@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package UI.Add_Election;
-
-import UI.Add_Election.ViewDashboad;
+package UI.GUI;
 
 /**
  *
@@ -19,7 +17,6 @@ public class VoterPanel extends javax.swing.JFrame {
     public VoterPanel() {
         initComponents();
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

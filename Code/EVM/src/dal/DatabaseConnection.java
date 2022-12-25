@@ -14,7 +14,7 @@ import model.dto.EmployeeDTO;
  * @author cenab
  */
 
-//in this class we make the sql connection
+//in ytui class we make the sql connection
 public class DatabaseConnection  {
     private static String userName = "root";
     private static String password = "Ali_9379";
@@ -33,6 +33,5 @@ public class DatabaseConnection  {
         System.out.printf("\n%s Added to Database", dto.getName());
         
     }
-        
     
 }
