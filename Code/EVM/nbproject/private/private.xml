@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/GU%20interface%20code/VoterPanel.java</file>
-            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/Add_Election/Dashboard.java</file>
-            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/GU%20interface%20code/ViewDashboad.java</file>
-            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/GU%20interface%20code/ViewElection.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/Dashboard.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/SqlConnection.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/IConnection.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/Model/Response.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/DatabaseController.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/Model/ElectionValidator.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/RemoveElection.java</file>
+            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/AddElection.java</file>
         </group>
     </open-files>
 </project-private>
