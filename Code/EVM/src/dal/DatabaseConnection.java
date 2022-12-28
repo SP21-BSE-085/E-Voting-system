@@ -17,7 +17,7 @@ import model.dto.EmployeeDTO;
 //in ytui class we make the sql connection
 public class DatabaseConnection  {
     private static String userName = "root";
-    private static String password = "Ali_9379";
+    private static String password = "";
     private static String url = "jdbc:mysql://localhost:3306/shop?zeroDateTimeBehavior=CONVERT_TO_NULL";
 
     public DatabaseConnection() throws SQLException {
