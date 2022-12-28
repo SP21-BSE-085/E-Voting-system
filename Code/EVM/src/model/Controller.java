@@ -4,6 +4,7 @@
  */
 package model;
 
+import Model.dto.PollingStationDTO;
 import dal.DatabaseConnection;
 import java.sql.SQLException;
 import model.dto.EmployeeDTO;
@@ -22,13 +23,17 @@ public class Controller {
     }
     
     
-    public Response addNewEmployee(EmployeeDTO dto) {
+
+    
+    public Response setNewPollingStation(PollingStationDTO dto) throws SQLException{
         Response response = SMSFactory.getResponseInstance();
-        CommonValidator.employeeValidat(response, dto);
+        CommonValidator.validateNewPollingStation(response, dto);
         if(response.isSuccesfull()){
-            dbc.saveEmployee(dto);
+            dbc.setNewPollingStation(dto);
         }
-            
         return response;
+        
+        
+        
     }
 }

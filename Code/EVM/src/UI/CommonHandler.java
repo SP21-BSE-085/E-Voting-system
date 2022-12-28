@@ -16,8 +16,10 @@ public class CommonHandler {
 
     public static void handleResponse(Response response, JLabel lbl) {
         if (response.isSuccesfull()) {
+            lbl.setText("Successfully added !");
             lbl.setForeground(Color.green);
         } else {
+            lbl.setText("please fill all fields");
             lbl.setForeground(Color.red);
 
         }

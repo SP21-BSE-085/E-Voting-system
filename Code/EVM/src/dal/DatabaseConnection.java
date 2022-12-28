@@ -1,12 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package dal;
 
+import Model.dto.PollingStationDTO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.*;
 import model.dto.EmployeeDTO;
 
 /**
@@ -17,21 +16,37 @@ import model.dto.EmployeeDTO;
 //in ytui class we make the sql connection
 public class DatabaseConnection  {
     private static String userName = "root";
-    private static String password = "";
-    private static String url = "jdbc:mysql://localhost:3306/shop?zeroDateTimeBehavior=CONVERT_TO_NULL";
+    private static String password = "Ali_9379";
+    private static String url = "jdbc:mysql://localhost:3306/onlinevotingsystem?zeroDateTimeBehavior=CONVERT_TO_NULL";
 
+    private Connection connection;
+    Statement stm; 
+    
     public DatabaseConnection() throws SQLException {
         createConnection();
     }
     
     private void createConnection() throws SQLException {
-        Connection connection = DriverManager.getConnection(url, userName, password);
+         connection = DriverManager.getConnection(url, userName, password);
         System.out.println("Connection stablished");
+        stm = connection.createStatement();
         
     }
-    public void saveEmployee(EmployeeDTO dto) {
-        System.out.printf("\n%s Added to Database", dto.getName());
-        
+   
+
+    //this method will use to add a new polling station to database 
+    //its uses for  Ali sina's use case
+    public void setNewPollingStation(PollingStationDTO dto) throws SQLException {
+        //insert into pollingstation values(id, name,address, city, street, building, employee number);
+        String sql = String.format("insert into pollingstation values(\"%s\", \"%s\",\"%s\", \"%s\", \"%s\", \"%s\", \"%s\")",
+                dto.getID(), dto.getName(), dto.getAddress(),dto.getCity(),dto.getStreet(),dto.getBuilding(), dto.getEmployeeNo());
+        int i = stm.executeUpdate(sql);
+        if(i > 0 ) {
+            System.out.println("Added to database ");
+        }
+        else{
+            System.out.println("there is some problem");
+        }
     }
     
 }
