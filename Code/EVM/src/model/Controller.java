@@ -34,4 +34,18 @@ public class Controller {
         
   
     }
+    
+    public Response addPollingStation(PollingStationDTO dto) throws SQLException{
+        Response response = SMSFactory.getResponseInstance();
+        CommonValidator.validateNewPollingStation(response, dto);
+        if(response.isSuccesfull()){
+            dbc.addPollingStation(dto);
+        }
+        return response;
+        
+  
+    }
+    
+    
+    
 }
