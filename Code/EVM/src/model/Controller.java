@@ -7,13 +7,12 @@ package model;
 import Model.dto.PollingStationDTO;
 import dal.DatabaseConnection;
 import java.sql.SQLException;
-import model.dto.EmployeeDTO;
 import model.dto.Response;
 import model.validators.CommonValidator;
 
 /**
  *
- * @author cenab
+ * @author Ali sina
  */
 public class Controller {
     private final DatabaseConnection dbc;
@@ -33,7 +32,6 @@ public class Controller {
         }
         return response;
         
-        
-        
+  
     }
 }

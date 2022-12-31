@@ -3,18 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/Dashboard.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/SqlConnection.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/IConnection.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/Model/Response.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/DAL/DatabaseController.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/Model/ElectionValidator.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/RemoveElection.java</file>
-            <file>file:/D:/E-Voting-system/Code/EVM/src/UI/AddRemoveElection/AddElection.java</file>
-=======
-            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/dal/DatabaseConnection.java</file>
->>>>>>> UI_customization
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/Model/SMSFactory.java</file>
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/DAL/DatabaseConnection.java</file>
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/model/validators/CommonValidator.java</file>
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/Model/Controller.java</file>
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/CommonHandler.java</file>
+            <file>file:/C:/Users/cenab/OneDrive/Documents/GitHub/E-Voting-system/Code/EVM/src/UI/PollingStation/SetPollingStation.java</file>
         </group>
     </open-files>
 </project-private>
